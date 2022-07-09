@@ -38,7 +38,7 @@ async function test() {
                         }
                     }
                 }
-            }
+            } 
         }
         for (const u in rankings) {
             console.log(rankings[u].artist + " " + rankings[u].value)
@@ -74,3 +74,5 @@ class Song {
         this.title = title;
     }
 }
+
+//https://api.music.apple.com/v1/me/recent/played/tracks?limit=12&types=songs
